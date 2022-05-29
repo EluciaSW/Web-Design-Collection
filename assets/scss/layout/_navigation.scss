@@ -1,0 +1,23 @@
+.navigation {
+    width: 100%;
+    padding: 50px;
+    background-color: #61679F;
+    &__container {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    // &__page-title {
+
+    // }
+    &__menu-options {
+        list-style: none;
+        background-color: aqua;
+        li {
+            display: inline;
+            background-color: rgb(172, 59, 172);
+            margin-left: 50px;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.gallery {
+    min-height: 720px;
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    padding: $spacing-large;
+    align-items: center;
+    justify-content: space-around;
+    &__box-preview {
+        height: 100%;
+        flex-basis: 50%;
+        margin-bottom: $spacing-regular;
+    }
+    &__box-image {
+        padding: $spacing-large;
+        background: $ui-white;
+        border-radius: 30px;
+        height: 100%;
+        width: 100%;
+        img {
+            height: 100%;
+            width:100%;
+        }
+    }
+    &__box-description {
+        @extend .heading-font-style;
+        font-size: $font-size-huge;
+        text-align: center;
+    }
+    &__next-item,
+    &__previous-item {  
+        flex-basis: 25%;
+        padding: $spacing-large;
+        text-align: center;
+    }
+
+}
