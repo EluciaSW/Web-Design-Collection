@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-color: #61679F;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+section {
+  background-color: #E5F1FF;
+  padding: 50px;
+}
+
+h1 {
+  background-color: rgb(22, 163, 116);
+  width: 50%;
+}
+
+.nav {
+  width: 50%;
+  text-align: right;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: aqua;
+}
+
+.nav ul li {
+  display: inline;
+  background-color: rgb(172, 59, 172);
+  margin-left: 50px;
+}
+
+.intro {
+  background-color: rgb(168, 94, 94);
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto 20px auto;
+  text-align: center;
+}
+
+.gallery {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 30px;
+}
+
+.item {
+  width: 250px;
+  height: 205px;
+  padding: 20px;
+  background-color: aquamarine;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: blue;
+  padding: 50px;
+  text-align: center;
+  margin-bottom: 84px;
+}
+
+.about {
+  background-color: aqua;
+  width: 70%;
+  padding: 20px;
+}
+
+.about-box {
+  display: flex;
+  background-color: greenyellow;
+  padding: 20px;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.about-img {
+  background-color: rgb(180, 146, 60);
+  width: 30%;
+  padding: 20px;
+}
+
+.next, .prev {
+  background-color: rgb(151, 150, 212);
+  padding: 10px;
+  display: block;
+}
+
+.next-prev {
+  background-color: antiquewhite;
+  display: flex;
+  padding: 10px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=main.css.map */
