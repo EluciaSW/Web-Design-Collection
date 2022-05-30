@@ -1,11 +1,14 @@
 // Brand colors
+$light-blue: #E5F1FF;
 $light-purple:#9796d4;
 $dark-purple: #61679F;
+$deep-purple: #4e3b61;
 
 //UI colors
 $primary: $light-purple;
 $secondary: $dark-purple;
-$tertiary: #ececec;
+$tertiary: $light-blue;
+$hilight: $deep-purple;
 $ui-white: #fff;
 $ui-black: #000;
 

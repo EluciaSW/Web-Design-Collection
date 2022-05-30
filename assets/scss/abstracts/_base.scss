@@ -17,4 +17,9 @@ body, html {
 }
 a{
     text-decoration: none;
+    transition: all 0.3s;
+    color: $dark-purple;
+    &:hover {
+        color: $ui-black;
+    }
 }

@@ -2,16 +2,21 @@
     width: 100%;
     padding: 50px;
     background-color: #61679F;
+    a {
+        color: $deep-purple;
+    }
     &__container {
+        width: 1200px;
         display: flex;
         flex-wrap: nowrap;
         align-items: flex-end;
         justify-content: space-between;
+        margin: 0 auto;
     }
     // &__page-title {
     &__page-title {
         @extend .title-font-style;
-        font-size: $font-size-xlarge;
+        font-size: 40px;
         margin-left: 72px;
     }
     // }
