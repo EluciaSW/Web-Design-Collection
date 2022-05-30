@@ -101,6 +101,7 @@ a:hover {
 .main-content {
   width: 1200px;
   margin: 0 auto;
+  padding: 50px 0;
 }
 .main-content h1 {
   max-width: 800px;
@@ -173,7 +174,6 @@ footer {
 }
 .navigation__page-title {
   font-size: 40px;
-  margin-left: 72px;
 }
 .navigation__menu-options {
   list-style: none;
