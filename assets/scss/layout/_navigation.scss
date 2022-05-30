@@ -13,13 +13,10 @@
         justify-content: space-between;
         margin: 0 auto;
     }
-    // &__page-title {
     &__page-title {
         @extend .title-font-style;
         font-size: 40px;
-        margin-left: 72px;
     }
-    // }
     &__menu-options {
         list-style: none;
         li {
