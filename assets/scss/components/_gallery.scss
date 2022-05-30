@@ -33,5 +33,10 @@
         padding: $spacing-large;
         text-align: center;
     }
+    &__box-title {
+        @extend .title-font-style;
+        font-size: $font-size-huge;
+        text-align: center;
+    }
 
 }

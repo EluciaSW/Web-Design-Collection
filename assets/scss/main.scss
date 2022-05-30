@@ -6,13 +6,16 @@ section{
     padding: 50px;
 }
 h1 {
-    background-color: rgb(22, 163, 116);
+    @extend .title-font-style;
+    font-size: $font-size-xlarge;
     width: 50%;
 }
 .intro{
-    background-color: rgb(168, 94, 94);
     padding: 20px;
     max-width: 800px;
     margin: 20px auto 20px auto;
     text-align: center;
+}
+.about-img{
+    margin-left: 129px;
 }

@@ -1,6 +1,7 @@
 footer{
-    background-color: blue;
+    @extend .footer-font-style;
     padding: 50px;
     text-align: center;
     margin-bottom: 84px;
+    font-size: $font-size-xlarge;
 }

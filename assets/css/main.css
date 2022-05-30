@@ -2,12 +2,27 @@
   font-family: puffin-arcade-yoko, sans-serif;
   font-weight: 800;
   font-style: normal;
+  color: #881FA7;
 }
 
 .nav-font-style {
   font-family: puffin-arcade-yoko, sans-serif;
   font-weight: 800;
   font-style: normal;
+}
+
+.title-font-style, h1, .navigation__menu-options li, .navigation__page-title, .gallery__box-title {
+  font-family: puffin-arcade-liquid, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #4e3b61;
+}
+
+.footer-font-style, footer {
+  font-family: puffin-arcade-liquid, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #4e3b61;
 }
 
 * {
@@ -26,6 +41,10 @@ body, html {
 
 .container {
   width: 1200px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .gallery {
@@ -62,21 +81,36 @@ body, html {
   padding: 32px;
   text-align: center;
 }
+.gallery__box-title {
+  font-size: 64px;
+  text-align: center;
+}
 
 .item {
   width: 250px;
-  height: 205px;
+  height: 250px;
   padding: 20px;
-  background-color: aquamarine;
+  background-color: white;
   margin-bottom: 10px;
   border-radius: 20px;
 }
 
+.about {
+  padding-left: 615px;
+}
+
+.about-img {
+  width: 387px;
+  height: 375px;
+  margin-left: 129px;
+  border-radius: 30%;
+}
+
 footer {
-  background-color: blue;
   padding: 50px;
   text-align: center;
   margin-bottom: 84px;
+  font-size: 48px;
 }
 
 .navigation {
@@ -90,14 +124,17 @@ footer {
   align-items: flex-end;
   justify-content: space-between;
 }
+.navigation__page-title {
+  font-size: 48px;
+  margin-left: 72px;
+}
 .navigation__menu-options {
   list-style: none;
-  background-color: aqua;
 }
 .navigation__menu-options li {
   display: inline;
-  background-color: rgb(172, 59, 172);
   margin-left: 50px;
+  font-size: 48px;
 }
 
 section {
@@ -105,16 +142,19 @@ section {
 }
 
 h1 {
-  background-color: rgb(22, 163, 116);
+  font-size: 48px;
   width: 50%;
 }
 
 .intro {
-  background-color: rgb(168, 94, 94);
   padding: 20px;
   max-width: 800px;
   margin: 20px auto 20px auto;
   text-align: center;
+}
+
+.about-img {
+  margin-left: 129px;
 }
 
 /*# sourceMappingURL=main.css.map */

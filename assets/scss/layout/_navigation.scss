@@ -9,15 +9,19 @@
         justify-content: space-between;
     }
     // &__page-title {
-
+    &__page-title {
+        @extend .title-font-style;
+        font-size: $font-size-xlarge;
+        margin-left: 72px;
+    }
     // }
     &__menu-options {
         list-style: none;
-        background-color: aqua;
         li {
+            @extend .title-font-style;
             display: inline;
-            background-color: rgb(172, 59, 172);
             margin-left: 50px;
+            font-size: $font-size-xlarge;
         }
     }
 }
