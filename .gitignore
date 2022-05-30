@@ -1,3 +1,5 @@
-assets/*.css
-assets/*.map
+*.css
+*.map
 node_modules
+assets/css/main.css.map
+assets/css/main.css
