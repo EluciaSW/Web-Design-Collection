@@ -1,27 +1,38 @@
 // Base Fonts
-.heading-font-style{
+.heading-font-style {
     font-family: puffin-arcade-yoko, sans-serif;
     font-weight: 800;
     font-style: normal;
     color: #881FA7;
 }
-.nav-font-style{
+
+.nav-font-style {
     font-family: puffin-arcade-yoko, sans-serif;
     font-weight: 800;
     font-style: normal;
 }
-.title-font-style{
+
+.title-font-style {
     font-family: puffin-arcade-liquid, sans-serif;
     font-weight: 800;
     font-style: normal;
-    color: #4e3b61
+    color: $deep-purple;
 }
-.footer-font-style{
+
+.footer-font-style {
     font-family: puffin-arcade-liquid, sans-serif;
     font-weight: 800;
     font-style: normal;
-    color: #4e3b61
+    color: $deep-purple;
 }
+
+.item-link-font-style {
+    font-family: puffin-arcade-nerf, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: $deep-purple;
+}
+
 // Font Sizes
 $font-size-small: 12px;
 $font-size-regular: 16px;
@@ -29,4 +40,3 @@ $font-size-medium: 24px;
 $font-size-large: 32px;
 $font-size-xlarge: 48px;
 $font-size-huge: 64px;
-

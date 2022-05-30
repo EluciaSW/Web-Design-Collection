@@ -25,6 +25,13 @@
   color: #4e3b61;
 }
 
+.item-link-font-style, .main-content a {
+  font-family: puffin-arcade-nerf, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #4e3b61;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -128,7 +135,8 @@ a:hover {
 .main-content__item-description {
   width: 100%;
   text-align: center;
-  font-size: 16px;
+  font-size: 32px;
+  margin-bottom: 32px;
 }
 
 .about {
