@@ -11,7 +11,7 @@
   font-style: normal;
 }
 
-.title-font-style, h1, .navigation__menu-options li, .navigation__page-title, .gallery__box-title {
+.title-font-style, .navigation__menu-options li, .navigation__page-title, .gallery__box-title {
   font-family: puffin-arcade-liquid, sans-serif;
   font-weight: 800;
   font-style: normal;
@@ -139,7 +139,8 @@ a:hover {
   align-items: baseline;
 }
 .main-content__about-description {
-  padding-left: 615px;
+  align-self: flex-start;
+  padding: 32px;
   text-align: left;
   font-size: 32px;
 }
@@ -153,7 +154,6 @@ a:hover {
 .main-content__about-image {
   width: 387px;
   height: 375px;
-  margin-left: 129px;
   border-radius: 32px;
 }
 
@@ -194,27 +194,6 @@ footer {
   display: inline;
   margin-left: 50px;
   font-size: 48px;
-}
-
-section {
-  padding: 50px;
-}
-
-h1 {
-  font-size: 48px;
-  width: 50%;
-}
-
-.intro {
-  padding: 20px;
-  max-width: 800px;
-  margin: 20px auto 20px auto;
-  text-align: center;
-}
-
-.about-img {
-  margin-left: 129px;
-  border-radius: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */

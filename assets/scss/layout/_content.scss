@@ -47,7 +47,8 @@
     }
     &__about-description{
         @extend .heading-font-style;
-        padding-left: 615px;
+        align-self: flex-start;
+        padding: $spacing-large;
         text-align: left;
         font-size: $font-size-large;
         h1{
@@ -61,7 +62,6 @@
     &__about-image{
         width: 387px;
         height: 375px;
-        margin-left: 129px;
         border-radius: $spacing-large;
     }
 }
