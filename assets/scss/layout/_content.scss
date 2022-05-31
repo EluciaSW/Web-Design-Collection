@@ -41,14 +41,14 @@
         text-align: center;
         font-size: $font-size-large;
     }
-    &__about-box{
+    &__about-box {
         display: flex;
         align-items: baseline;
     }
-    &__about-description{
+    &__about-description {
         @extend .heading-font-style;
         align-self: flex-start;
-        padding: $spacing-large;
+        margin-left: 80px;
         text-align: left;
         font-size: $font-size-large;
         h1{
@@ -59,9 +59,8 @@
             margin-bottom: $spacing-large;
         }
     }
-    &__about-image{
-        width: 387px;
-        height: 375px;
+    &__about-image {
+        width: 264px;
         border-radius: $spacing-large;
     }
 }

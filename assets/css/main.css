@@ -140,7 +140,7 @@ a:hover {
 }
 .main-content__about-description {
   align-self: flex-start;
-  padding: 32px;
+  margin-left: 80px;
   text-align: left;
   font-size: 32px;
 }
@@ -152,8 +152,7 @@ a:hover {
   margin-bottom: 32px;
 }
 .main-content__about-image {
-  width: 387px;
-  height: 375px;
+  width: 264px;
   border-radius: 32px;
 }
 
