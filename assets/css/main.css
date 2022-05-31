@@ -1,4 +1,4 @@
-.heading-font-style, .gallery__box-description {
+.heading-font-style, .main-content__about-description, .gallery__box-description {
   font-family: puffin-arcade-yoko, sans-serif;
   font-weight: 800;
   font-style: normal;
@@ -15,21 +15,18 @@
   font-family: puffin-arcade-liquid, sans-serif;
   font-weight: 800;
   font-style: normal;
-  color: #4e3b61;
 }
 
 .footer-font-style, footer {
   font-family: puffin-arcade-liquid, sans-serif;
   font-weight: 800;
   font-style: normal;
-  color: #4e3b61;
 }
 
 .item-link-font-style, .main-content a {
   font-family: puffin-arcade-nerf, sans-serif;
   font-weight: 800;
   font-style: normal;
-  color: #4e3b61;
 }
 
 * {
@@ -91,11 +88,6 @@ a:hover {
 .gallery__next-item, .gallery__previous-item {
   flex-basis: 25%;
   padding: 32px;
-  font-family: puffin-arcade-liquid, sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  font-size: 40px;
-  color: #4e3b61;
   text-align: center;
 }
 .gallery__box-title {
@@ -113,6 +105,7 @@ a:hover {
   padding: 20px;
   margin: 20px auto 20px auto;
   text-align: center;
+  color: #61679F;
 }
 .main-content__item-preview {
   min-height: 720px;
@@ -123,7 +116,7 @@ a:hover {
   justify-content: space-around;
   padding: 40px 32px;
   border-radius: 32px;
-  background: #E5F1FF;
+  background: #fff;
 }
 .main-content__item {
   width: 248px;
@@ -141,28 +134,35 @@ a:hover {
   text-align: center;
   font-size: 32px;
 }
-
-.about {
-  font-family: puffin-arcade-yoko, sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  font-size: 35px;
-  color: #881FA7;
-  padding-left: 615px;
+.main-content__about-box {
+  display: flex;
+  align-items: baseline;
 }
-
-.about-img {
+.main-content__about-description {
+  padding-left: 615px;
+  text-align: left;
+  font-size: 32px;
+}
+.main-content__about-description h1 {
+  margin: 0;
+  text-align: left;
+}
+.main-content__about-description p {
+  margin-bottom: 32px;
+}
+.main-content__about-image {
   width: 387px;
   height: 375px;
   margin-left: 129px;
-  border-radius: 30%;
+  border-radius: 32px;
 }
 
 footer {
   padding: 50px;
   text-align: center;
   margin-bottom: 84px;
-  font-size: 48px;
+  font-size: 16px;
+  color: #61679F;
 }
 
 .navigation {
@@ -170,7 +170,7 @@ footer {
   padding: 50px;
   background-color: #61679F;
   background: linear-gradient(180deg, #31344F, #868CCB);
-
+  border-bottom: 3px solid #000;
 }
 .navigation a {
   color: #F1E7E7;

@@ -1,9 +1,11 @@
 .navigation {
     width: 100%;
     padding: 50px;
-    background-color: #61679F;
+    background-color: $dark-purple;
+    background:linear-gradient(180deg, #31344F, #868CCB);
+    border-bottom: 3px solid $ui-black;
     a {
-        color: $deep-purple;
+        color: $light-pink;
     }
     &__container {
         width: 1200px;
@@ -16,6 +18,7 @@
     &__page-title {
         @extend .title-font-style;
         font-size: 40px;
+        color: $light-pink;
     }
     &__menu-options {
         list-style: none;
