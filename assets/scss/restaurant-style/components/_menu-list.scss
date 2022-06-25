@@ -1,0 +1,21 @@
+.menu-list {
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 100px;
+        grid-row-gap: 10px;
+        background: #F5EFE1;
+        border-radius: 32px;
+        h4 {
+            padding-left: 20%;
+            padding-bottom: 20px;
+            font-size: 16pt;
+            font-family: brevia,sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            text-align: left;
+            align-items: center;
+        }
+    }
+}
+

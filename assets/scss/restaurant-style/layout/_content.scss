@@ -2,24 +2,14 @@
     width: 1200px;
     margin: 0 auto;
     padding: 50px 0;
-    a {
-        @extend .item-link-font-style;
-        
-    }
+    
     h1 {
-        @extend .title-font-style;
         max-width: 800px;
         padding: 20px;
         margin: 20px auto 20px auto;
         text-align: center;
         color: $dark-purple;
         font-size: $font-size-huge;
-    }
-    p {
-        @extend .title-font-style;
-        text-align: center;
-        color: $dark-purple;
-        font-size: $font-size-large;
     }
     &__item-preview {
         min-height: 720px;
@@ -53,21 +43,7 @@
         display: flex;
         align-items: baseline;
     }
-    &__about-description {
-        @extend .heading-font-style;
-        align-self: flex-start;
-        margin-left: 80px;
-        text-align: left;
-        font-size: $font-size-large;
-        h1{
-            @extend .title-font-style;
-            margin: 0;
-            text-align: left;
-        }
-        p{
-            margin-bottom: $spacing-large;
-        }
-    }
+    
     &__about-image {
         width: 264px;
         border-radius: $spacing-large;

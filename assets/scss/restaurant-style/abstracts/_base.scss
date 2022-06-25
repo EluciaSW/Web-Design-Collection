@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #f5c996;
+    color: $ui-black;
+    font-size: $font-size-regular;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    margin-top: 16px;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 82px;
+}

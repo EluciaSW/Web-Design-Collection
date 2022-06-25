@@ -1,0 +1,19 @@
+.btn {
+    position: relative;
+    border-radius: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: rosella-inline,sans-serif;
+    font-weight: 400;
+    
+    &-primary {
+        background: #f79f3b;
+        border: 3px solid #f79f3b;
+        color: #fff;
+        font-size: $font-size-regular;
+        &:hover {
+            background: #546580;
+            border: #546580;
+        }
+    }
+}
