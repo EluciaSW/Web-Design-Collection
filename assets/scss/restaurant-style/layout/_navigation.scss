@@ -1,9 +1,16 @@
 .navigation {
     width: 100%;
+    max-width: 1200px;
     height: 90px;
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    margin: 0 auto;
+
+    &-options {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .logo {
         font-size: 40pt;
@@ -14,6 +21,15 @@
 
     a {
         @extend .nav-font-style;
+    }
+
+    ul li {
+        float: left;
+        padding-right: 24px;
+
+        a {
+            font-size: 16px;
+        }
     }
 
     &__container {

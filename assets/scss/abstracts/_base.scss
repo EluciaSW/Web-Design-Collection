@@ -6,6 +6,7 @@
 body, html {
     width: 100%;
     height: 100%;
+    position: inherit;
     background: $main-purple;
     color: $ui-black;
     font-size: $font-size-regular;
