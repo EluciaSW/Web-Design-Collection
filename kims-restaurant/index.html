@@ -4,27 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://use.typekit.net/gqr7ccp.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/kims-style.css" />
     <title>Bakery and Cafe Homepage</title>
+    <style>
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body class="homepage">
     <div class="header">
-        <nav class="navigation">
-            <div class="logo">
-                <a href="./index.html">Kim's Bakery & Cafe</a>
+        <!-- Add swiper parent container -->
+        <div class="swiper">
+
+            <nav class="navigation">
+                <div class="container">
+                    <div class="logo">
+                        <a href="./index.html">Kim's Bakery & Cafe</a>
+                    </div>
+                    <ul class="navigation-options">
+                        <li><a href="./menu.html">Menu</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Extra slides here -->
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Needs a higher z-index than the gallery -->
+
+                <!-- Slides - add the background:url inline styles | remove the img tags -->
+                <div class="swiper-slide"
+                    style="background: url(assets/images/home_image.jpg);background-size: cover;background-position: center;">
+                    <div class="content">
+                        <h2>FALL IS HERE</h2>
+                        <h3>try our new pumpkin cheesecake.</h3>
+                        <button class="btn btn-primary"><a href="./menu.html"></a>Order Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide"
+                    style="background: url(assets/images/slideshowmock2.jpg);background-size: cover;background-position: center;">
+                </div>
             </div>
-            <ul class="navigation-options">
-                <li><a href="./menu.html">Menu</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="content">
-            <h2>FALL IS HERE</h2>
-            <h3>try our new pumpkin cheesecake.</h3>
-            <button class="btn btn-primary"><a href="./menu.html"></a>Order Now</button>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
     </div>
     <footer>
@@ -37,7 +69,7 @@
                 </li>
             </ul>
             <ul>
-               
+
                 <li>Hours:
                     <div class="hours-format">
                         <ul>
@@ -50,6 +82,11 @@
             </ul>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"> </script>
+    <script type="text/javascript" src="./assets/js/main.js"> </script>
 </body>
 
 </html>

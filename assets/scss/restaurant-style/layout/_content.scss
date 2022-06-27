@@ -6,6 +6,7 @@
     position: absolute;
     left: 64px;
     bottom: calc(50% - 300px);
+    z-index: 3;
 
     h2 {
         font-family: ff-cocon-pro-condensed, sans-serif;
@@ -59,4 +60,6 @@
         width: 264px;
         border-radius: $spacing-large;
     }
+    
 }
+
